@@ -1,0 +1,24 @@
+{
+    "name": "muhamadaldizarilham/belajar-php-composer-library",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Muhamadaldizarilham\\BelajarPhpComposerLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lucian666",
+            "email": "ilhamaldizar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MuhamadAldizarIlham\\Belajar\\": "src/"
+        }
+    }
+}
